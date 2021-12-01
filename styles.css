@@ -1,0 +1,15 @@
+:root {
+    --grid-rows: 1;
+    --grid-columns: 1;
+}
+
+#grid {
+    border: medium;
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+    height: 500px;
+    grid-template-columns: repeat(var(--grid-columns),1fr);
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    display: grid;
+}
