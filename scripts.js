@@ -1,4 +1,6 @@
 const grid = document.getElementById('grid');
+const resetButton = document.getElementById('reset-button');
+resetButton.addEventListener('click', resetGrid);
 
 // Create grid of rows * columns and populate with evenly sized cells
 function populateGrid(rows, columns) {
@@ -14,6 +16,13 @@ function populateGrid(rows, columns) {
 
 function changeColor(e) {
     e.target.classList.add('paint');
+}
+
+function resetGrid() {
+    while (grid.firstChild) {
+        grid.removeChild(grid.firstChild);
+    }
+    populateGrid(prompt('Select a new grid width (Number of rows)'), prompt('Select a new grid height (Number of columns)'))
 }
 
 populateGrid(16, 16);
