@@ -1,4 +1,5 @@
 const grid = document.getElementById('grid');
+const gridSize = document.getElementById('grid-slider');
 const resetButton = document.getElementById('reset-button');
 resetButton.addEventListener('click', resetGrid);
 
@@ -22,7 +23,7 @@ function resetGrid() {
     while (grid.firstChild) {
         grid.removeChild(grid.firstChild);
     }
-    populateGrid(prompt('Select a new grid width (Number of rows)'), prompt('Select a new grid height (Number of columns)'))
+    populateGrid(gridSize.value, gridSize.value);
 }
 
 populateGrid(16, 16);

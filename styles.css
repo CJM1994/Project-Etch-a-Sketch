@@ -1,7 +1,11 @@
 :root {
     --grid-rows: 1;
     --grid-columns: 1;
-    --brush-color: yellow;
+    --brush-color: black;
+}
+
+* {
+    background-color: lightgray;
 }
 
 #grid {
@@ -18,6 +22,7 @@
 .grid-item {
     border-style: dashed;
     border-color: cadetblue;
+    background-color: white;
 }
 
 .paint {
