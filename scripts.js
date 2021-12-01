@@ -6,10 +6,14 @@ function populateGrid(rows, columns) {
     grid.style.setProperty('--grid-columns', columns);
     for (i = 0; i < (rows * columns); i++) {
         let cell = document.createElement('div');
-        cell.innerText = i;
+        cell.addEventListener('mouseover', changeColor)
         cell.classList.add('grid-item');
         grid.appendChild(cell);
     }
 }
 
-populateGrid(5, 5);
+function changeColor(e) {
+    e.target.classList.add('paint');
+}
+
+populateGrid(16, 16);

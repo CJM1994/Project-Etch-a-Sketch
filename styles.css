@@ -1,6 +1,7 @@
 :root {
     --grid-rows: 1;
     --grid-columns: 1;
+    --brush-color: yellow;
 }
 
 #grid {
@@ -12,4 +13,13 @@
     grid-template-columns: repeat(var(--grid-columns),1fr);
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     display: grid;
+}
+
+.grid-item {
+    border-style: dashed;
+    border-color: cadetblue;
+}
+
+.paint {
+    background-color: var(--brush-color);
 }
