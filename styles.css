@@ -1,7 +1,6 @@
 :root {
     --grid-rows: 1;
     --grid-columns: 1;
-    --brush-color: black;
 }
 
 * {
@@ -23,8 +22,4 @@
     border-style: dashed;
     border-color: cadetblue;
     background-color: white;
-}
-
-.paint {
-    background-color: var(--brush-color);
 }

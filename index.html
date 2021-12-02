@@ -13,10 +13,22 @@
 
     <div id="grid"></div>
 
-    <div id="settings" class="settings">
-        <input id="grid-slider" type="range" min="1" max="16">
-        <label for="grid-slider">Grid Size</label>
+    <div id="settings">
+
+        <label for="grid-slider">Grid Size
+            <input id="grid-slider" type="range" min="1" max="16">
+        </label>
+
         <button id="reset-button" class="reset-button">RESET</button>
+
+        <label for="black-mode">Black Mode
+            <input id="black-mode" type="radio" name="color-mode" checked>
+        </label>
+
+        <label for="rainbow-mode">Rainbow Mode
+            <input id="rainbow-mode" type="radio" name="color-mode">
+        </label>
+
     </div>
 
     <script src="scripts.js"></script>

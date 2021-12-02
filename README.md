@@ -16,3 +16,5 @@ COMPLETE
 Second Goal: set up a hover effect that changes the color of the divs when the cursor hovers over them and leaves a trail
 
 Third Goal: Add a button to the top of the screen which will clear the current grid and send the user a popup asking for the number of squares per side for the new grid. Once entered, the new grid should be generated in the same total space as before (e.g. 960px wide) so that you’ve got a new sketch pad. Tip: Set the limit for the user input to a maximum of 100. A larger number of squares results in more computer resources being used, potentially causing delays, freezing, or crashing that we want to prevent. 
+
+Fourth Goal: Add a selector that lets you choose between a mode that paints black and rainbow, and add a scaler for the grid
