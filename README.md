@@ -1,5 +1,6 @@
 # Project-Etch-a-Sketch
 Javascript Etch-a-Sketch in browser. Creating from scratch with no tutorial or guide for practice.
+Can be tried here: https://cjm1994.github.io/Project-Etch-a-Sketch/
 
 Features to add:
 - Grid size selector
