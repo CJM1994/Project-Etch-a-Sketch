@@ -1,5 +1,5 @@
 # Project-Etch-a-Sketch
-Javascript Etch-a-Sketch in browser. Creating from scratch with no tutorial or guide for practice.
+Javascript Etch-a-Sketch in browser. Creating from scratch with no tutorial or guide for practice using css grids and variables without the use of jquery.
 Can be tried here: https://cjm1994.github.io/Project-Etch-a-Sketch/
 
 Features to add:
